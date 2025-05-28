@@ -1,0 +1,7 @@
+echo "### Simple redirection: HERE files"
+cat -n << BANANA
+red
+green
+blue
+BANANA
+printenv ?

@@ -1,0 +1,3 @@
+echo "### pushd/popd: Pushd with non-existent directory"
+pushd /this_directory_does_not_exist
+printenv ?

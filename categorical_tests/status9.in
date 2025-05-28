@@ -1,0 +1,4 @@
+echo "### Errors: Execute script without execute permissions"
+chmod -x /tmp/script_without_execute_permission.sh
+/tmp/script_without_execute_permission.sh 2>/dev/null
+printenv ?

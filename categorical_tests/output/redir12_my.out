@@ -1,0 +1,5 @@
+(1)$ ### Redirect stdout to pipe and check behavior
+(2)$ Output should be captured by pipe
+(3)$ First command
+Pipe should catch this
+(4)$ 

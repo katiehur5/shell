@@ -1,0 +1,3 @@
+echo "### && and || combinations"
+false && echo "This should not print" || echo "This should print"
+true || echo "This should not print" && echo "This still prints"

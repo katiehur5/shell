@@ -1,0 +1,2 @@
+echo "Append this line1" >> ./test_outputs/append_test && echo "Append this line2" >> ./test_outputs/append_test && cat ./test_outputs/append_test
+rm ./test_outputs/append_test 

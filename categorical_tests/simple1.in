@@ -1,0 +1,3 @@
+echo "### Test for Command Not Found"
+command_not_found
+printenv ?

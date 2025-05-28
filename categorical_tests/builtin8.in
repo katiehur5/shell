@@ -1,0 +1,6 @@
+echo "### Testing pushd/popd alongside cd"
+pushd /tmp
+popd
+cd /
+pushd .
+popd

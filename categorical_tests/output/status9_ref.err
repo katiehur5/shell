@@ -1,0 +1,2 @@
+chmod: cannot access '/tmp/script_without_execute_permission.sh': No such file or directory
+Parse: unexpected token

@@ -1,0 +1,3 @@
+echo "### Test Exit within Script"
+(echo "Before exit"; exit 42; echo "After exit")
+printenv ?

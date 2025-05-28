@@ -1,0 +1,4 @@
+# Advanced error handling with nested redirections and subcommands
+echo "### Advanced Error Handling"
+{ /c/cs323/proj4/tests/exit 4; echo "This should not print" > /dev/null; } 2>&1 | grep "error" || echo "Handled error in subcommand"
+printenv ?

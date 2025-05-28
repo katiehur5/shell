@@ -1,0 +1,8 @@
+pushd .
+printenv ?
+cd
+printenv ?
+pwd
+popd
+printenv ?
+pwd

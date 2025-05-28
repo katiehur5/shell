@@ -1,0 +1,6 @@
+echo "### Torture: Do zombies die?"
+sleep 5 &
+PID=$!
+kill -HUP $PID 2>/dev/null
+wait $PID 2>/dev/null
+printenv ?

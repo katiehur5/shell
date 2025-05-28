@@ -1,0 +1,4 @@
+echo "### Grouped commands with redirections"
+{ echo "Grouped command 1"; echo "Grouped command 2"; } > grouped.txt
+cat grouped.txt
+rm grouped.txt

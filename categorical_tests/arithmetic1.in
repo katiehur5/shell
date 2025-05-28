@@ -1,0 +1,4 @@
+echo "### Arithmetic Expansion and Evaluation"
+RESULT=$((1 + 2))
+echo "1 + 2 = $RESULT"
+[ "$RESULT" -eq 3 ] && printenv ? || printenv ?

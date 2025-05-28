@@ -1,0 +1,4 @@
+echo "### Checking STATUS variable set under different conditions"
+false; printenv ?
+true; printenv ?
+{ false; } && printenv ?

@@ -1,0 +1,4 @@
+echo "### Local variables and combinations"
+echo "Local variables should work with pipes, and, or, and subcommands"
+A=1 B=2 printenv A B | grep 1 && echo "Local A found" || echo "Local A not found"
+(c=C3 D=4 printenv C;) && printenv D || echo "D should not persist outside subcommand"

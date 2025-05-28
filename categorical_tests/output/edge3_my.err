@@ -1,0 +1,1 @@
+cat: tests/assets/inaccessible_file.txt: No such file or directory

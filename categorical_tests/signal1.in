@@ -1,0 +1,4 @@
+echo "### Test Trapping Signals"
+trap 'echo "SIGINT trapped."' SIGINT
+kill -SIGINT $$
+printenv ?

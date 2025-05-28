@@ -1,0 +1,4 @@
+cd /etc &
+sleep 1
+pwd
+printenv ?

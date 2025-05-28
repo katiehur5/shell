@@ -1,0 +1,5 @@
+echo "### Read Only Variable Test"
+readonly READ_ONLY_VAR="readonly"
+READ_ONLY_VAR="changed" 2>/dev/null
+printenv READ_ONLY_VAR
+printenv ?

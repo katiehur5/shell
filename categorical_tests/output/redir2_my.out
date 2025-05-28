@@ -1,0 +1,8 @@
+(1)$ ### Simple redirection: output redirection (append mode)
+(2)$ (2)$ (3)$ 0
+(4)$ (5)$ 0
+(6)$ this is an output file!
+this goes there too!
+(7)$ 0
+(8)$ (9)$ 0
+(10)$ 

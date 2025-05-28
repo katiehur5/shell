@@ -1,0 +1,6 @@
+echo "### Redirect stdout to file (>, >>)"
+echo "Creating a new file" > newfile.txt
+cat newfile.txt
+echo "Appending to the file" >> newfile.txt
+cat newfile.txt
+rm newfile.txt

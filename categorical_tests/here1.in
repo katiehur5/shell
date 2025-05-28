@@ -1,0 +1,6 @@
+echo "### Advanced HERE document with variable expansion"
+NAME="Bash Tester"
+cat <<EOF
+Hello, $NAME!
+This tests variable expansion within a HERE document.
+EOF

@@ -1,0 +1,3 @@
+echo "### pushd/popd: Popd without push"
+popd
+printenv ?

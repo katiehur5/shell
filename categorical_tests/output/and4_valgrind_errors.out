@@ -1,0 +1,13 @@
+==4104984== Memcheck, a memory error detector
+==4104985==    definitely lost: 0 bytes in 0 blocks
+==4104985==    indirectly lost: 0 bytes in 0 blocks
+==4104985==      possibly lost: 0 bytes in 0 blocks
+==4104985== For lists of detected and suppressed errors, rerun with: -s
+==4104985== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==4104989==    definitely lost: 0 bytes in 0 blocks
+==4104989==    indirectly lost: 0 bytes in 0 blocks
+==4104989==      possibly lost: 0 bytes in 0 blocks
+==4104989== For lists of detected and suppressed errors, rerun with: -s
+==4104989== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==4104984== For lists of detected and suppressed errors, rerun with: -s
+==4104984== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

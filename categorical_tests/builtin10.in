@@ -1,0 +1,7 @@
+echo "### pushd/popd: Nested pushd"
+pushd /tmp
+pushd /
+pwd
+popd
+pwd
+popd

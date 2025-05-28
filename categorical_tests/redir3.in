@@ -1,0 +1,9 @@
+echo "### Simple redirection: input redirection"
+echo does any redirection work spongebob?
+printenv ?
+echo "this is an input file!" > temp
+printenv ?
+cat -n < temp
+printenv ?
+rm temp
+printenv ?

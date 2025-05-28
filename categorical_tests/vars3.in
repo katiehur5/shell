@@ -1,0 +1,2 @@
+SHARKS=COOL /c/cs323/proj4/tests/exit 0 | printenv SHARKS
+printenv ?

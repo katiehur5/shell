@@ -1,0 +1,5 @@
+# Assuming /tmp exists and /nonexistent does not
+cd /tmp && echo "cd succeeded with status printenv ?"
+printenv ?
+cd /nonexistent || echo "cd failed with status printenv ?"
+printenv ?

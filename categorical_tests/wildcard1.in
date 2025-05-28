@@ -1,0 +1,3 @@
+echo "### Wildcard Expansion in Directory with No Matches"
+ls *.notfound 2>/dev/null
+printenv ?

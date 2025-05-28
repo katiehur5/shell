@@ -1,0 +1,3 @@
+echo "### Tilde Expansion for Home Directory"
+ls ~/
+printenv ?

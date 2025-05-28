@@ -1,0 +1,30 @@
+echo Popping and printing the error code spongebob
+
+popd 
+printenv ?
+
+sleep 20
+
+cd /tmp && printenv ? 
+cd /nonexistent || printenv ?
+
+echo hi && chdhfehu 
+printenv ?
+
+echo hi || eruurefh 
+printenv ?
+
+failureeee && echo hi 
+printenv ?
+
+failure && nfireifer 
+printenv ?
+
+failureeee || echo hi 
+printenv ?
+
+failure || nfireifer 
+printenv ?
+
+sleep 10
+echo backgrounded shit should catch up?

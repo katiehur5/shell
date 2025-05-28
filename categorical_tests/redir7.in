@@ -1,0 +1,4 @@
+echo "### Redirect stdin to HERE document (<<)"
+cat <<EOF1
+This is the first here document.
+EOF1

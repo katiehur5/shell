@@ -1,0 +1,3 @@
+echo "### Setting STATUS: Command failure"
+/c/cs323/proj4/tests/exit 1
+printenv ?

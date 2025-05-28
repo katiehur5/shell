@@ -1,0 +1,5 @@
+# Redirecting output of cd command
+cd /tmp > cd_output.txt
+# Check if cd_output.txt is empty since cd usually has no output
+[ -s cd_output.txt ] && echo "File is not empty" || echo "File is empty"
+cat cd_output.txt

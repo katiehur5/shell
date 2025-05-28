@@ -1,0 +1,3 @@
+echo "### Subcommands"
+/c/cs323/proj4/tests/exit 1 && (/c/cs323/proj4/tests/exit 0 || echo "don't print me")
+SHARKS=COOL (/c/cs323/proj4/tests/exit 0 | printenv SHARKS)

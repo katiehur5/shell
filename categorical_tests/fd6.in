@@ -1,0 +1,6 @@
+# Torture test involving file system limits and cleanup
+echo "### File System Limits Torture Test"
+for i in {1..1000}; do touch "/tmp/test_file_$i"; done
+printenv ?
+rm /tmp/test_file_*
+printenv ?

@@ -1,0 +1,4 @@
+echo "### Function Export and Execution in Subshell"
+export -f hello_world
+(bash -c 'hello_world')
+printenv ?

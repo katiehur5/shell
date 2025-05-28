@@ -1,0 +1,2 @@
+/c/cs323/proj4/tests/exit 42
+/c/cs323/proj4/tests/exit 5 ; /c/cs323/proj4/tests/exit 4 ; printenv ?

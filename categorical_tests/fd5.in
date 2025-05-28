@@ -1,0 +1,11 @@
+# Testing comprehensive file descriptor management
+echo "### Comprehensive FD Management"
+exec 3>/tmp/fd_test
+echo "FD3" >&3
+exec 4>/tmp/fd_test
+echo "FD4" >&4
+exec 3>&- 4>&-
+cat /tmp/fd_test
+printenv ?
+rm /tmp/fd_test
+printenv ?

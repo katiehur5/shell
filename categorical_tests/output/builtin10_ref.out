@@ -1,0 +1,8 @@
+(1)$ ### pushd/popd: Nested pushd
+(2)$ /tmp /home/classes/cs323/class/hur.katie.ksh48/proj4
+(3)$ / /tmp /home/classes/cs323/class/hur.katie.ksh48/proj4
+(4)$ /
+(5)$ /tmp /home/classes/cs323/class/hur.katie.ksh48/proj4
+(6)$ /tmp
+(7)$ /home/classes/cs323/class/hur.katie.ksh48/proj4
+(8)$ 

@@ -1,0 +1,2 @@
+cat tests/assets/inaccessible_file.txt
+printenv ?

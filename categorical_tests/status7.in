@@ -1,0 +1,4 @@
+echo "### Errors: Permission denied on execution"
+chmod -x /tmp/non_executable_script.sh
+/tmp/non_executable_script.sh 2>/dev/null
+printenv ?

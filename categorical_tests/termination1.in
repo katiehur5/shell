@@ -1,0 +1,3 @@
+echo "### Testing for command termination before the next begins"
+sleep 1 && echo "Sleep completed" || echo "Sleep failed"
+{ false && echo "This should not run"; } || echo "Group failure detected"

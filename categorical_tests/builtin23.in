@@ -1,0 +1,3 @@
+echo "/etc" | (cd $(cat) && pwd)
+# After running, check if current directory changed
+pwd

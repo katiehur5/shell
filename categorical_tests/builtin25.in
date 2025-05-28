@@ -1,0 +1,6 @@
+mkdir deletesoon
+cd deletesoon
+pushd .
+cd ..
+pwd
+rm -r deletesoon

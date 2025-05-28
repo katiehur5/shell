@@ -1,0 +1,3 @@
+# Pop from an empty stack
+popd || echo "popd failed with status printenv ?"
+printenv ?

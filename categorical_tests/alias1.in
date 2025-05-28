@@ -1,0 +1,4 @@
+echo "### Alias Definition and Expansion"
+alias ll='ls -l'
+alias ll
+printenv ?

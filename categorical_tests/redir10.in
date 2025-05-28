@@ -1,0 +1,4 @@
+(echo "Subcommand with HERE document"; cat <<EOF4
+Subcommand content
+EOF4
+) | grep 'Subcommand'

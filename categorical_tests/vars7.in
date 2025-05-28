@@ -1,0 +1,6 @@
+echo "### Path Environment Variable Test"
+OLD_PATH=$PATH
+export PATH=""
+which ls
+printenv ?
+export PATH=$OLD_PATH

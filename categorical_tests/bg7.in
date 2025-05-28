@@ -1,0 +1,2 @@
+echo "### Background commands (&) and checking their completion"
+sleep 1 & wait; echo "Background command with wait completed"

@@ -1,0 +1,3 @@
+echo "### Close file descriptors: Verify fd is closed"
+{ echo "Test"; } >&3 2>/dev/null
+printenv ?

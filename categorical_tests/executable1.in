@@ -1,0 +1,4 @@
+echo "### Test for Permission Denied"
+chmod -x /tmp/non_executable_script.sh
+/tmp/non_executable_script.sh
+printenv ?

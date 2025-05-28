@@ -1,0 +1,6 @@
+echo "### Torture: Status of zombie reported correctly"
+sleep 5 &
+PID=$!
+kill -9 $PID
+wait $PID 2>/dev/null
+printenv ?

@@ -1,0 +1,4 @@
+(1)$ ### Advanced HERE document with variable expansion
+(2)$ (2)$ Hello, !
+This tests variable expansion within a HERE document.
+(3)$ 

@@ -1,0 +1,2 @@
+cd hi hi hi < non_existent_file.txt
+printenv ?

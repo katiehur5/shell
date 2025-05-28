@@ -1,0 +1,3 @@
+echo "### Setting STATUS: Last command dictates STATUS"
+/c/cs323/proj4/tests/exit 3; /c/cs323/proj4/tests/exit 2; /c/cs323/proj4/tests/exit 1
+printenv ?

@@ -1,0 +1,2 @@
+chmod: cannot access '/tmp/non_executable_script.sh': No such file or directory
+Parse: unexpected token

@@ -1,0 +1,3 @@
+cat <<EOF2 | grep 'second'
+This is the second here document.
+EOF2

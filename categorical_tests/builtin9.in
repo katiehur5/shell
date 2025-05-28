@@ -1,0 +1,4 @@
+echo "### pushd/popd: Basic pushd and popd"
+pushd /tmp
+pwd
+popd

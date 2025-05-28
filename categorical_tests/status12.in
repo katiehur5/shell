@@ -1,0 +1,5 @@
+cat non_existing_file.txt
+printenv ?
+
+echo Ananya is testing woohooo!
+printenv ?

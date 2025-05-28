@@ -1,0 +1,4 @@
+# Complex manipulation of STATUS with nested commands
+echo "### Complex STATUS Manipulation"
+(c=C3; /c/cs323/proj4/tests/exit 3; /c/cs323/proj4/tests/exit 0) || /c/cs323/proj4/tests/exit 1
+printenv ?

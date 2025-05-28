@@ -1,0 +1,5 @@
+sleep 2 && echo hi &
+echo banana
+sleep 3
+echo apple
+printenv ?

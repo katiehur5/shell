@@ -1,0 +1,3 @@
+echo "### Edge cases that might involve signal handling, zombies, and resource management"
+sleep 10 & kill $!
+wait $! 2>/dev/null && echo "Zombie process handled" || echo "Zombie process not found"

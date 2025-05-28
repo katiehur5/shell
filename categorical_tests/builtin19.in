@@ -1,0 +1,3 @@
+# Assuming /tmp exists
+pushd /tmp && pwd
+printenv ?

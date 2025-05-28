@@ -1,0 +1,4 @@
+cd: chdir fail: No such file or directory
+{: No such file or directory
+cd_output.txt: Permission denied
+rm: cannot remove 'cd_output.txt': Operation not permitted

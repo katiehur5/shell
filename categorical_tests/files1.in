@@ -1,0 +1,5 @@
+echo "### Negative Test: Writing to a Read-only File System"
+mount -o remount,ro /
+echo "test" > /readonlytest 2>/dev/null
+printenv ?
+mount -o remount,rw /

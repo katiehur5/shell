@@ -1,0 +1,31 @@
+==339463== Memcheck, a memory error detector
+==339463== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==339463== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==339463== Command: /home/accts/ksh48/cs323/proj4/Bash
+==339463== Parent PID: 333014
+==339463== 
+==339544== 
+==339544== HEAP SUMMARY:
+==339544==     in use at exit: 525 bytes in 10 blocks
+==339544==   total heap usage: 28 allocs, 18 frees, 5,301 bytes allocated
+==339544== 
+==339544== LEAK SUMMARY:
+==339544==    definitely lost: 0 bytes in 0 blocks
+==339544==    indirectly lost: 0 bytes in 0 blocks
+==339544==      possibly lost: 0 bytes in 0 blocks
+==339544==    still reachable: 525 bytes in 10 blocks
+==339544==         suppressed: 0 bytes in 0 blocks
+==339544== Reachable blocks (those to which a pointer was found) are not shown.
+==339544== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==339544== 
+==339544== For lists of detected and suppressed errors, rerun with: -s
+==339544== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==339463== 
+==339463== HEAP SUMMARY:
+==339463==     in use at exit: 0 bytes in 0 blocks
+==339463==   total heap usage: 42 allocs, 42 frees, 5,564 bytes allocated
+==339463== 
+==339463== All heap blocks were freed -- no leaks are possible
+==339463== 
+==339463== For lists of detected and suppressed errors, rerun with: -s
+==339463== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

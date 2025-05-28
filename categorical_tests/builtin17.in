@@ -1,0 +1,25 @@
+# Start in a known directory
+cd /tmp
+
+# Use pushd to change directories and check stack
+pushd /var
+# Should output /var /tmp
+
+# Change directories using cd
+cd /etc
+
+# Use popd to go back and check the current directory
+popd
+# Should return to /tmp, verify with pwd
+pwd
+
+cd /tmp
+pushd /var
+pushd /etc
+cd /bin
+popd
+# Should print /var as current directory
+pwd
+popd
+# Should print /tmp as current directory
+pwd

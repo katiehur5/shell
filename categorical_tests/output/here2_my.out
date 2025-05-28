@@ -1,0 +1,6 @@
+(1)$ ### Feeding multiple HERE documents into a pipeline and subcommand
+(2)$ This is Document 1.
+This is Document 2.
+EOF2 Reached
+(3)$ 0
+(4)$ 

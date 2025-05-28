@@ -1,0 +1,26 @@
+# Create a temporary file for input redirection
+echo "Input for redirection" > input.txt
+
+# Create a temporary file to check if file descriptors are left open
+exec 3>fd_check.txt
+
+# Execute multiple commands with redirections
+# Redirect stdin from input.txt, stdout to output.txt, and append stdout to append.txt
+cat < input.txt > output.txt && echo "Appending this line" >> append.txt
+
+# Check open file descriptors for the current shell process
+# Replace $$ with the specific process ID if you want to check a different process
+lsof -p $$ | grep -E "output.txt|append.txt|input.txt|fd_check.txt" > fd_check.txt
+
+# Output the results
+echo "Checking if file descriptors are closed properly..."
+cat fd_check.txt
+
+# Cleanup temporary files
+rm input.txt output.txt append.txt fd_check.txt
+
+# Close file descriptor 3 explicitly
+exec 3>&-
+
+sleep 10
+echo backgrounded shit should catch up part 2 lol?

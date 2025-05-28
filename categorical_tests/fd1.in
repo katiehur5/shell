@@ -1,0 +1,6 @@
+echo "### Checking file descriptor management"
+exec 3<> fd_test.txt
+echo "File descriptor test" >&3
+exec 3>&-
+cat fd_test.txt
+rm fd_test.txt

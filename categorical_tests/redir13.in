@@ -1,0 +1,2 @@
+echo "### Multiple commands per line with diverse redirections and subcommands"
+echo "Multiple" > multi.txt; cat multi.txt && rm multi.txt | echo "Cleanup" && echo "Done"

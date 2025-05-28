@@ -1,0 +1,4 @@
+echo Popping and printing the error code spongebob
+
+popd 
+printenv ?

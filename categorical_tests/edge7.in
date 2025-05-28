@@ -1,0 +1,4 @@
+( echo vvvvvvvv ; cat ; echo ^^^^^^^^ ) << HERE
+uwu
+owo
+HERE

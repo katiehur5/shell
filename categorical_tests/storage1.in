@@ -1,0 +1,3 @@
+echo "### Torture: All storage reachable?"
+df / | awk '/\// {print $(NF-1)}'
+printenv ?

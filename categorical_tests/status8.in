@@ -1,0 +1,3 @@
+echo "### Errors: Write to read-only file"
+echo "Test" > /readonly_file.txt 2>/dev/null
+printenv ?

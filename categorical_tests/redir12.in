@@ -1,0 +1,3 @@
+echo "### Redirect stdout to pipe and check behavior"
+echo "Output should be captured by pipe" | grep "Output"
+(echo "First command" && false) | grep "First" || echo "Pipe should catch this"

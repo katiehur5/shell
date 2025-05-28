@@ -1,0 +1,6 @@
+(1)$ ### Simple redirection: HERE files
+(2)$      1	red
+     2	green
+     3	blue
+(3)$ 0
+(4)$ 

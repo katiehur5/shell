@@ -1,0 +1,7 @@
+echo "### Feeding multiple HERE documents into a pipeline and subcommand"
+cat <<EOF1 | grep "Document 1" && (cat <<EOF2 | grep "Document 2"; echo "EOF2 Reached")
+This is Document 1.
+EOF1
+This is Document 2.
+EOF2
+printenv ?

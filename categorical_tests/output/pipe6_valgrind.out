@@ -1,0 +1,47 @@
+==345665== Memcheck, a memory error detector
+==345665== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==345665== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==345665== Command: /home/accts/ksh48/cs323/proj4/Bash
+==345665== Parent PID: 333014
+==345665== 
+==345666== 
+==345666== HEAP SUMMARY:
+==345666==     in use at exit: 544 bytes in 11 blocks
+==345666==   total heap usage: 35 allocs, 24 frees, 5,390 bytes allocated
+==345666== 
+==345666== LEAK SUMMARY:
+==345666==    definitely lost: 0 bytes in 0 blocks
+==345666==    indirectly lost: 0 bytes in 0 blocks
+==345666==      possibly lost: 0 bytes in 0 blocks
+==345666==    still reachable: 544 bytes in 11 blocks
+==345666==         suppressed: 0 bytes in 0 blocks
+==345666== Reachable blocks (those to which a pointer was found) are not shown.
+==345666== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==345666== 
+==345666== For lists of detected and suppressed errors, rerun with: -s
+==345666== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==345667== 
+==345667== HEAP SUMMARY:
+==345667==     in use at exit: 544 bytes in 11 blocks
+==345667==   total heap usage: 33 allocs, 22 frees, 5,362 bytes allocated
+==345667== 
+==345667== LEAK SUMMARY:
+==345667==    definitely lost: 0 bytes in 0 blocks
+==345667==    indirectly lost: 0 bytes in 0 blocks
+==345667==      possibly lost: 0 bytes in 0 blocks
+==345667==    still reachable: 544 bytes in 11 blocks
+==345667==         suppressed: 0 bytes in 0 blocks
+==345667== Reachable blocks (those to which a pointer was found) are not shown.
+==345667== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==345667== 
+==345667== For lists of detected and suppressed errors, rerun with: -s
+==345667== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==345665== 
+==345665== HEAP SUMMARY:
+==345665==     in use at exit: 0 bytes in 0 blocks
+==345665==   total heap usage: 47 allocs, 47 frees, 5,625 bytes allocated
+==345665== 
+==345665== All heap blocks were freed -- no leaks are possible
+==345665== 
+==345665== For lists of detected and suppressed errors, rerun with: -s
+==345665== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

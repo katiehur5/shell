@@ -1,0 +1,3 @@
+# Assuming /nonexistent does not exist
+pushd /nonexistent || echo "pushd failed with status printenv ?"
+printenv ?

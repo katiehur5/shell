@@ -1,0 +1,5 @@
+
+echo "### Job Control Test: Bringing Job to Foreground"
+sleep 30 &
+fg %1
+printenv ?

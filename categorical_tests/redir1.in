@@ -1,0 +1,8 @@
+echo "### Simple redirection: output redirection"
+
+echo "this is an output file!" > temp
+cat temp
+printenv ?
+rm temp
+printenv ?
+printenv ?

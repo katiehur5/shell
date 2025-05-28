@@ -1,0 +1,15 @@
+==333076== Memcheck, a memory error detector
+==333076== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==333076== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==333076== Command: /home/accts/ksh48/cs323/proj4/Bash
+==333076== Parent PID: 333014
+==333076== 
+==333076== 
+==333076== HEAP SUMMARY:
+==333076==     in use at exit: 0 bytes in 0 blocks
+==333076==   total heap usage: 45 allocs, 45 frees, 5,602 bytes allocated
+==333076== 
+==333076== All heap blocks were freed -- no leaks are possible
+==333076== 
+==333076== For lists of detected and suppressed errors, rerun with: -s
+==333076== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

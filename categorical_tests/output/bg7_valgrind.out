@@ -1,0 +1,47 @@
+==334648== Memcheck, a memory error detector
+==334648== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==334648== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==334648== Command: /home/accts/ksh48/cs323/proj4/Bash
+==334648== Parent PID: 333014
+==334648== 
+==334667== 
+==334667== HEAP SUMMARY:
+==334667==     in use at exit: 777 bytes in 16 blocks
+==334667==   total heap usage: 56 allocs, 40 frees, 6,240 bytes allocated
+==334667== 
+==334667== LEAK SUMMARY:
+==334667==    definitely lost: 0 bytes in 0 blocks
+==334667==    indirectly lost: 0 bytes in 0 blocks
+==334667==      possibly lost: 0 bytes in 0 blocks
+==334667==    still reachable: 777 bytes in 16 blocks
+==334667==         suppressed: 0 bytes in 0 blocks
+==334667== Reachable blocks (those to which a pointer was found) are not shown.
+==334667== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==334667== 
+==334667== For lists of detected and suppressed errors, rerun with: -s
+==334667== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==334648== 
+==334648== HEAP SUMMARY:
+==334648==     in use at exit: 0 bytes in 0 blocks
+==334648==   total heap usage: 58 allocs, 58 frees, 6,268 bytes allocated
+==334648== 
+==334648== All heap blocks were freed -- no leaks are possible
+==334648== 
+==334648== For lists of detected and suppressed errors, rerun with: -s
+==334648== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==334665== 
+==334665== HEAP SUMMARY:
+==334665==     in use at exit: 777 bytes in 16 blocks
+==334665==   total heap usage: 56 allocs, 40 frees, 6,240 bytes allocated
+==334665== 
+==334665== LEAK SUMMARY:
+==334665==    definitely lost: 0 bytes in 0 blocks
+==334665==    indirectly lost: 0 bytes in 0 blocks
+==334665==      possibly lost: 0 bytes in 0 blocks
+==334665==    still reachable: 777 bytes in 16 blocks
+==334665==         suppressed: 0 bytes in 0 blocks
+==334665== Reachable blocks (those to which a pointer was found) are not shown.
+==334665== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==334665== 
+==334665== For lists of detected and suppressed errors, rerun with: -s
+==334665== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

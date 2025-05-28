@@ -1,0 +1,2 @@
+HOME=/home/classes/cs323/class/purushottam.ananya.sk2993/proj4/starter-code cd
+printenv HOME

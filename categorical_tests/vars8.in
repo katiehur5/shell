@@ -1,0 +1,2 @@
+echo "### Testing local variables with pipes, background, and subcommands"
+A="outer" (A="inner" echo "Inner A: $A" | grep inner) & A="later" echo "Outer A: $A"

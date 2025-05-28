@@ -1,0 +1,2 @@
+open: No such file or directory
+rm: cannot remove './test_outputs/append_test': No such file or directory

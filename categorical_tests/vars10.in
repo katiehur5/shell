@@ -1,0 +1,17 @@
+a=/home/accts/sk2993/cs323/proj4/starter-code/dummy pushd a
+printenv ?
+printenv a
+
+a=/home/accts/sk2993/cs323/proj4/starter-code/dummy pushd a
+printenv a
+
+a="dummy" pushd a
+printenv ?
+printenv a
+
+a=dummy pushd a
+printenv ?
+printenv a
+
+a=dummy pushd a
+printenv a

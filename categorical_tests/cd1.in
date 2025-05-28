@@ -1,0 +1,6 @@
+echo "### Testing cd's behavior in various contexts"
+cd /tmp && pwd
+cd - && pwd
+{ cd / && pwd; } > cd_output.txt
+cat cd_output.txt
+rm cd_output.txt

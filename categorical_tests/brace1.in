@@ -1,0 +1,3 @@
+echo "### Brace Expansion Test"
+echo file_{a,b,c}.txt
+printenv ?

@@ -1,0 +1,4 @@
+(1)$ ### Brace Expansion Test
+(2)$ file_{a,b,c}.txt
+(3)$ 0
+(4)$ 

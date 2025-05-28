@@ -1,0 +1,10 @@
+echo "### Simple redirection: output redirection (append mode)"
+
+echo "this is an output file!" >> temp
+printenv ?
+echo "this goes there too!" >> temp
+printenv ?
+cat temp
+printenv ?
+rm temp
+printenv ?

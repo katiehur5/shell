@@ -1,0 +1,6 @@
+# Write a directory to a file
+echo "/var" > dir.txt
+# Use input redirection with cd
+cd < dir.txt
+# Check current directory
+pwd

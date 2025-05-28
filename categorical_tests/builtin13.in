@@ -1,0 +1,14 @@
+# Testing pushd/popd with redirection and checking directory stack integrity
+echo "### Advanced pushd/popd Interaction"
+pushd / >pushd_dir_stack.txt
+printenv ?
+pushd /tmp >>pushd_dir_stack.txt
+printenv ?
+popd >>pushd_dir_stack.txt
+printenv ?
+popd >>pushd_dir_stack.txt
+printenv ?
+cat pushd_dir_stack.txt
+printenv ?
+rm pushd_dir_stack.txt
+printenv ?

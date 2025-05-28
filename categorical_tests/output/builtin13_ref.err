@@ -1,0 +1,5 @@
+pushd_dir_stack.txt: Permission denied
+pushd_dir_stack.txt: Permission denied
+pushd_dir_stack.txt: Permission denied
+cat: pushd_dir_stack.txt: No such file or directory
+rm: cannot remove 'pushd_dir_stack.txt': No such file or directory

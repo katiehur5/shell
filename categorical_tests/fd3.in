@@ -1,0 +1,6 @@
+echo "### Close file descriptors: Open and close custom fd"
+exec 3>/tmp/custom_fd_test
+echo "Writing to custom fd" >&3
+exec 3>&-
+cat /tmp/custom_fd_test
+rm /tmp/custom_fd_test
