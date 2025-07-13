@@ -1,4 +1,4 @@
-# 🐚 _THE_ Shell
+# _THE_ Shell
 
 ## Overview
 A fully functional Unix-style shell, closely mimicking the core behavior of `bash` and `zsh`, implemented in C for Yale's CPSC 323: Systems Programming & Computer Organization. This supports job control, process pipelines, I/O redirection, signals, environment variables, and built-in commands — all without relying on any shell libraries or wrappers.
